@@ -1,0 +1,34 @@
+## Task 1
+    1  mkdir animals
+    2  cd /animals
+    3  cd ~/animals
+    4  cat > house_animals
+    5  cat > pack_animals
+    6  cat house_animals pack_animals > all_animals
+    7  cat all_animals
+    8  mv animals human_friends
+    9  mv all_animals human_friends
+   10  ls
+   11  ll
+## Task 2
+   12  cd
+   13  mkdir menagerie
+   14  cd ~/animals
+   15  mv human_friends ~/menagerie
+   16  cd ~/menagerie
+   17  ll
+## Task 3
+   18  sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.28-1_all.deb
+   19  dpkg -i mysql-apt-config_0.8.28-1_all.deb
+   20  apt get update
+   21  apt-get update
+   22  apt-get install mysql-server
+## Task 4
+   23  apt update
+   24  sudo dpkg -i vivaldi-stable_3.8.2259.42-1_amd64.deb
+   25  apt install gimp
+   26  apt remove gimp
+   27  wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+   28  dpkg -i docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+   29  dpkg -r docker-ce-cli
+   30  history    
