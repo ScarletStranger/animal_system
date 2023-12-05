@@ -9,20 +9,26 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-скрин 1
+![Задача1](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/1.png)
 
 2. Создать директорию, переместить файл туда.
 
-скрин 2
+![Задача2](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/2.png)
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-скрин 3
-скрин 4
+![Задача3](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/3.png)
+![Задача4](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/4.png)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-скрин 5
+![Задача5](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/5.png)
 
-5. Выложить историю команд в терминале ubuntu
+5. Выложить ![историю команд](https://github.com/ScarletStranger/animal_system/blob/main/Linux_history_commands) в терминале ubuntu
+  
+6. Нарисовать ![диаграмму](https://github.com/ScarletStranger/animal_system/blob/main/animal_classes.drawio), в которой есть класс родительский класс, домашние
+животные и вьючные животные, в составы которых в случае домашних
+животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
+войдут: Лошади, верблюды и ослы).
+
