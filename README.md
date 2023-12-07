@@ -32,7 +32,7 @@
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
 
-скрин диаграммы
+![Задача6](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.png)
 
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
@@ -187,7 +187,7 @@ UNION SELECT  Name, Birthday, Commands FROM donkeys;
 11. Создать новую таблицу “молодые животные” в которую попадут все
 животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
 до месяца подсчитать возраст животных в новой таблице
-скрин таблицы
+![задача11](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/%D1%81%D0%BA%D1%80%D0%B8%D0%BD_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B.png)
 ```sql
 CREATE TEMPORARY TABLE animals AS 
 SELECT *, 'Лошади' as genus FROM horses
@@ -204,7 +204,7 @@ SELECT * FROM yang_animal;
 ```
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
-скрин_таблицы2
+![задача12](https://github.com/ScarletStranger/animal_system/blob/main/screencshots/%D1%81%D0%BA%D1%80%D0%B8%D0%BD_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B2.png)
 ```sql
 SELECT h.Name, h.Birthday, h.Commands, pa.Genus_name, ya.Age_in_month 
 FROM horses h
@@ -231,3 +231,4 @@ FROM hamsters hm
 LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
+
